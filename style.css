@@ -1,0 +1,245 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.container {
+}
+.toaster__container {
+  background: #dfe894;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+}
+.toaster__block {
+  width: 130px;
+  height: 90px;
+  background: #4f71b9;
+  border-radius: 15px 25px 0 0;
+  position: relative;
+}
+.toaster__inner_block {
+  width: 40px;
+  height: 90px;
+  background: #334f91;
+  border-radius: 15px 25px 0 0;
+  left: 90px;
+  position: relative;
+}
+.button {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+.toaster__button_1 {
+  background: #a73d3d;
+  position: relative;
+  top: 25px;
+  right: 40px;
+}
+.toaster__button_2 {
+  background: #a73d3d;
+  position: relative;
+  top: 30px;
+  right: 40px;
+}
+.toaster__button_3 {
+  background: #2a8266;
+  position: relative;
+  top: 35px;
+  right: 42px;
+  width: 12px;
+  height: 12px;
+  border: 1px solid #ffffff;
+}
+
+.toaster__shine {
+  background: #ffffff;
+  position: relative;
+  height: 21px;
+  width: 11px;
+  border-radius: 50%;
+  transform: rotate(30deg);
+  top: -20px;
+  right: 77px;
+}
+.toaster__slot_1 {
+  position: relative;
+  background: #771313;
+  height: 43px;
+  width: 8px;
+  border-radius: 15px;
+  bottom: 65px;
+  left: 105px;
+}
+.toaster__slot_2 {
+  position: relative;
+  background: #420f0f;
+  height: 43px;
+  width: 8px;
+  border-radius: 15px;
+  bottom: 108px;
+  left: 103px;
+}
+
+.toaster_handle {
+  background: white;
+  height: 5px;
+  width: 22px;
+  position: relative;
+  right: 27px;
+  bottom: 10px;
+  animation: 6s move infinite;
+  /* padding: 0 10px; */
+}
+@keyframes move {
+  50% {
+    transform: translateY(28px);
+  }
+}
+.toaster__handle_2 {
+  width: 20px;
+  height: 10px;
+  position: relative;
+  background: #5f2323;
+  left: 10px;
+  bottom: 2.5px;
+  border: #420f0f;
+  border-radius: 10px;
+}
+.toaster__handle_3 {
+  width: 10px;
+  height: 10px;
+  position: relative;
+  background: #420f0f;
+  border-radius: 50%;
+  left: 20px;
+  bottom: 12px;
+  border: #5f2323;
+}
+.toaster__base_1 {
+  background: #5f2323;
+  width: 97px;
+  height: 10px;
+  position: relative;
+  top: 50px;
+  right: 155px;
+  border-radius: 10px;
+  z-index: 3;
+}
+.toaster__base_2 {
+  background: #420f0f;
+  width: 47px;
+  height: 10px;
+  position: relative;
+  top: 50px;
+  right: 163px;
+  border-radius: 10px;
+}
+.point {
+  height: 7px;
+  width: 8px;
+  background: #420f0f;
+  position: relative;
+  border-radius: 0 0 2px 2px;
+}
+.toaster__base_p1 {
+  top: 57px;
+  right: 288px;
+}
+.toaster__base_p2 {
+  top: 57px;
+  right: 270px;
+}
+.toaster__base_p3 {
+  top: 57px;
+  right: 230px;
+}
+.toaster__base_p4 {
+  top: 57px;
+  right: 205px;
+}
+.toaster__toast {
+}
+.toaster__toast_1 {
+  width: 60px;
+  height: 15px;
+  background: #a8940e;
+  border-radius: 10px;
+  position: relative;
+  bottom: 70px;
+  right: 290px;
+  z-index: -1;
+  animation: 6s toast infinite;
+}
+@keyframes toast {
+  50% {
+    transform: translateY(22px);
+  }
+}
+.toaster__toast_inner {
+  width: 50px;
+  height: 50px;
+  background: #a8940e;
+  position: inherit;
+  left: 5px;
+}
+.toaster__toast_p1 {
+  width: 52px;
+  height: 12px;
+  background: #c9d933;
+  position: relative;
+  bottom: 48px;
+  left: 4px;
+  border-radius: 10px;
+}
+.toaster__toast_p2 {
+  width: 44px;
+  height: 45px;
+  background: #c9d933;
+  position: relative;
+  bottom: 60px;
+  left: 8px;
+}
+.toaster__toast_2 {
+  width: 60px;
+  height: 15px;
+  background: #a8940e;
+  border-radius: 10px;
+  position: relative;
+  bottom: 90px;
+  right: 310px;
+  z-index: -1;
+  animation: 6s toast2 infinite;
+}
+@keyframes toast2 {
+  50% {
+    transform: translateY(22px);
+  }
+  90% {
+    transform: translateY(-15px);
+  }
+}
+.toaster__toast_p3 {
+  width: 52px;
+  height: 12px;
+  background: #c9d933;
+  position: relative;
+  bottom: 48px;
+  left: 4px;
+  border-radius: 10px;
+}
+.toaster__toast_p4 {
+  width: 44px;
+  height: 45px;
+  background: #c9d933;
+  position: relative;
+  bottom: 60px;
+  left: 8px;
+}
